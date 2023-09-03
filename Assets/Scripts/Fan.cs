@@ -36,7 +36,7 @@ public class Fan : MonoBehaviour
 
     private void MoveFan()
     {
-        float dirX = Input.GetAxisRaw("Horizontal");
+        float dirX = Input.GetAxis("Horizontal");
         fanRB.velocity = new Vector2(dirX * moveSpeed, fanRB.velocity.y);
     }
 
@@ -47,5 +47,5 @@ public class Fan : MonoBehaviour
             ballRB.velocity = new Vector2(ballRB.velocity.x, fanForce);
         }
     }
-    
+
 }
