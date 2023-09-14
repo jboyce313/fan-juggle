@@ -98,5 +98,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 3346353755608136382, guid: e7fe9fead5fe64488be15aad71935872, type: 3}
-  spawnRate: 3
-  xOffset: 15
+  spawnRate: 4
+  xOffset: 7
+  scoreText: {fileID: 0}

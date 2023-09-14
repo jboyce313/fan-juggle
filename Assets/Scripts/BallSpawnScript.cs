@@ -9,7 +9,7 @@ public class BallSpawnScript : MonoBehaviour
     [SerializeField] private float spawnRate = 3f;
     private float timer = 0f;
 
-    [SerializeField] private float xOffset = 15f;
+    [SerializeField] private float xOffset = 5f;
 
     [SerializeField] private Text scoreText;
 
